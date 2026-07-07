@@ -264,7 +264,7 @@ a, button, input, textarea, [role="button"] { cursor: pointer; }
   overflow: hidden;
   background: var(--bg-2);
 }
-.hero-card-frame img { width: 100%; height: 100%; object-fit: none; }
+.hero-card-frame img { width: 100%; height: 100%; object-fit: cover; }
 .hero-card-data { padding: 20px; display: flex; flex-direction: column; gap: 8px; }
 .data-row {
   display: flex; justify-content: space-between;
@@ -597,10 +597,7 @@ a, button, input, textarea, [role="button"] { cursor: pointer; }
   color: var(--muted);
   font-size: 0.85rem;
 }
-.hero-card-frame img{
 
-  transform: scale(1.2);
-}
 .whatsapp{
 
    position: fixed; bottom: 28px; left: 28px;
